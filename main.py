@@ -77,9 +77,9 @@ axs[0,1].plot(time,x[1:])
 axs[1,1].plot(time,y[1:])
 axs[2,1].plot(time,z[1:])
 
-axs[0,1].set_title("x(rad)")
-axs[1,1].set_title("y(rad)")
-axs[2,1].set_title("z(rad)")
+axs[0,1].set_title("x(deg)")
+axs[1,1].set_title("y(deg)")
+axs[2,1].set_title("z(deg)")
 
 plt.show()
 
